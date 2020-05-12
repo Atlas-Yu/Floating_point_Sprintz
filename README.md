@@ -14,7 +14,7 @@ Instead of downloading benchmark suite from [benchmark repository](https://githu
 
 Instead of downloading data from all the sources mentioned in Sprintz repo, only download the data from [UCR Archive](http://www.cs.ucr.edu/~eamonn/time_series_data/) 2015. The current version does not support other datasets.
 
-In order to see the results using our lossless floating point compression methods, in the Quantization phase, instead of running [`_python/datasets/compress_bench.py`](https://github.com/dblalock/lzbench/blob/master/_python/datasets/compress_bench.py), run ` _python/datasets/compress_bench_ucr_float.py` to reproduce data using float splitting method one as stated in the paper:
+In order to see the results using our lossless floating point compression methods, in the Quantization phase, instead of running [`_python/datasets/compress_bench.py`](https://github.com/dblalock/lzbench/blob/master/_python/datasets/compress_bench.py), run ` _python/datasets/compress_bench_ucr_float.py` to reproduce data using float splitting method one as stated in [our paper](https://github.com/Atlas-Yu/Floating_point_Sprintz/blob/master/Floating_Point_for_Sprintz.pdf):
 
 ```
 python -m _python.datasets.compress_bench_ucr_float
